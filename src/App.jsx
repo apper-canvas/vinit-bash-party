@@ -9,7 +9,9 @@ import { Textarea } from '@/components/ui/textarea';
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@/components/ui/select';
 import { Badge } from '@/components/ui/badge';
 import { Checkbox } from '@/components/ui/checkbox';
-import { Toaster, toast } from '@/components/ui/sonner';
+import { Toaster } from '@/components/ui/sonner';
+import { toast } from 'sonner';
+
 import { Plus, Search, Edit2, Trash2, Calendar, Clock, CheckCircle2, Circle } from 'lucide-react';
 
 function App() {
